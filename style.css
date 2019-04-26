@@ -1,5 +1,6 @@
 .portada {
-  width: 150px;
+	width: 160px;
+	height: 240px;
 }
 
 .container {
@@ -9,6 +10,16 @@
 
 .desc {
 	font-size: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.input {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
 }
 
 
@@ -23,8 +34,8 @@
 	}
 
 .flip-container, .front, .back {
-	width: 150px;
-	height: 230px;
+	width: 160px;
+	height: 240px;
 }
 
 /* flip speed goes here */
